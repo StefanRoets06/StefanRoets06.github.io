@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    background-color: #e0f2f7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3.8em;
+    margin-bottom: 5px;
+    color: #00838f;
+    font-weight: 500;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.content {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+    color: #00acc1;
+    font-weight: 500;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.skills-list li {
+    background-color: #e0f7fa; /* Lighter turquoise background for skills list */
+    padding: 15px 20px;
+    border-radius: 6px;
+    color: #00838f; /* Darker turquoise text for skills list */
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+}
+
+.links-list li {
+    margin-bottom: 12px;
+}
+
+.links-list a {
+    color: #00bcd4;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.links-list a:hover {
+    text-decoration: underline;
+    color: #00acc1;
+}
+
+.github-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJjdXJyZW50Q29sb3IiPjxwYXRoIGQ9Ik0xMiAuMzkzYy02LjYyOCAwLTEyIDUuMzczLTEyIDEyIDAgNS4zMDMgMy40MzggOS44IDguMjA1IDExLjM4NS42LjExMy44MjQtLjI1My44MjQtLjU2N3YtMi4wNjNjLTMuMzM4LjcyNC00LjA0Mi0xLjYxLTQuMDQyLTEuNjEtLjU0Ni0xLjM4OS0xLjMzMy0xLjc1Ni0xLjMzMy0xLjc1Ni0xLjA4OS0uNzQ5LjA4My0uNzI5LjA4My0uNzI5IDEuMjA1LjA4NCAxLjgzOCAxLjIzOCAxLjgzOCAxLjIzOC un0gIDEuODAzIDIuODA5IDEuMjgyIDMuNDkyLjk4LjEtLjc1My40MTYtMS4yODIgLjc1MS0xLjU3OS0yLjY2NS0uMzA1LTUuNDY3LTEuMzM0LTUuNDY3LTUuOTMgMC0xLjMxLjQ2OS0yLjM4IDEuMjM1LTMuMjIyLS4xMzUtLjMwMy-uNTQtMS41MjMgLjEwNS0zLjE3NiAwIDAgMS4wMDUtLjMyMiAzLjMgMS4yMy45Ni0uMjY3IDEuOTgtLjM5OSAzLS40MDUgMS4wMi.wMDYgMi4wNDUuMTM4IDMgLjQwNSAyLjI5NC0xLjU1MiAzLjI5Ny0xLjIzIDMuMjk3LTEuMjMgLjY0NSAxLjY1My4yNDIgMi44NzMuMTA3IDMuMTc2Ljc2NS44NDIgMS4yMzUgMS45MSAxLjIzNSAzLjIyMiAwIDQuNi0yLjgwNSA1LjYyNy01LjQ3NSA1LjkxNy40My4zNzUuODI0IDEuMTIyLjgyNCAyLjI8N3YgMy4zODljMCAuMzEzLjIyOC42OTQuODI4LjU2MyA0Ljc2NSAxLjU4MyA4LjE5MiA2LjA3NiA4LjE5MiAxMS4zODUgMCA2LjYyNi01LjM3MyAxMi0xMiAxMi02LjYyNyAwLTEyLTUuMzczLTEyLTEyeiIvPjwvc3ZnPg==');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.github-icon:hover {
+    opacity: 0.8;
+}
